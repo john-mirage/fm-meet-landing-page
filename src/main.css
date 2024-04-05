@@ -1,0 +1,26 @@
+@import url("./styles/reset.css");
+
+@import url("./styles/components/page.css");
+@import url("./styles/components/hero.css");
+@import url("./styles/components/text.css");
+@import url("./styles/components/button.css");
+@import url("./styles/components/separator.css");
+@import url("./styles/components/main.css");
+@import url("./styles/components/grid.css");
+@import url("./styles/components/footer.css");
+@import url("./styles/components/container.css");
+@import url("./styles/components/image.css");
+@import url("./styles/components/column.css");
+
+:root {
+  --color-dark-grey: hsl(240, 21%, 20%);
+  --color-grey: hsl(240, 10%, 57%);
+  --color-green: hsl(192, 37%, 48%);
+  --color-green-hover: hsl(192, 54%, 64%);
+  --color-light-green: hsl(192, 90%, 77%);
+  --color-purple: hsl(268, 34%, 53%);
+  --color-purple-hover: hsl(268, 55%, 71%);
+  --color-light-purple: hsl(268, 100%, 86%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-grey: hsl(0, 0%, 98%);
+}

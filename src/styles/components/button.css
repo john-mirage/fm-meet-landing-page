@@ -1,0 +1,31 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 1rem 2.5rem;
+  border-radius: 9999px;
+  border: none;
+  transition-property: background-color;
+  transition-duration: 150ms;
+  cursor: pointer;
+}
+
+.button--green {
+  background-color: var(--color-green);
+}
+
+.button--purple {
+  background-color: var(--color-purple);
+}
+
+@media screen and (hover: hover) {
+  .button--green:hover {
+    background-color: var(--color-green-hover);
+  }
+  
+  .button--purple:hover {
+    background-color: var(--color-purple-hover);
+  }
+}
+

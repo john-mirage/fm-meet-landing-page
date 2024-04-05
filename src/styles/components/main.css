@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.main__grid {
+  margin-bottom: 4rem;
+}
+
+.main__overline {
+  margin-bottom: 1.5rem;
+}
+
+.main__title {
+  margin-bottom: 2rem;
+  max-width: 27.8125rem;
+}
+
+.main__subtitle {
+  margin-bottom: 4rem;
+  max-width: 35.8125rem;
+}
+
+@media screen and (min-width: 73.375rem) {
+  .main__grid {
+    margin-bottom: 5rem;
+  }
+
+  .main__subtitle {
+    margin-bottom: 4.5rem;
+    max-width: 33.75rem;
+  }
+}

@@ -1,0 +1,31 @@
+.page {
+  background-color: var(--color-light-grey);
+  padding-top: 3rem;
+}
+
+.page__hero {
+  margin-bottom: 4rem;
+}
+
+.page__main {
+  margin-bottom: -1.75rem;
+  position: relative;
+  z-index: 50;
+}
+
+.page__footer {
+  position: relative;
+  z-index: 10;
+}
+
+@media screen and (min-width: 48rem) {
+  .page__hero {
+    margin-bottom: 4.2rem;
+  }
+}
+
+@media screen and (min-width: 73.375rem) {
+  .page {
+    padding-top: 5rem;
+  }
+}

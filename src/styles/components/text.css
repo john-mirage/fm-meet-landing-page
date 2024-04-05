@@ -1,0 +1,101 @@
+.text {
+  --_text-font-fallback: system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  font-family: "Red Hat Display", var(--_text-font-fallback);
+}
+
+.text--dark-grey {
+  color: var(--color-dark-grey);
+}
+
+.text--green {
+  color: var(--color-green);
+}
+
+.text--light-green {
+  color: var(--color-light-green);
+}
+
+.text--light-purple {
+  color: var(--color-light-purple);
+}
+
+.text--grey {
+  color: var(--color-grey);
+}
+
+.text--light-grey {
+  color: var(--color-light-grey);
+}
+
+.text--white {
+  color: var(--color-white);
+}
+
+.text--heading-lg {
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 2.75rem; /* 110% */
+}
+
+.text--heading-md {
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 2.25rem; /* 112.5% */
+}
+
+.text--body-lg {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem; /* 144.444% */
+}
+
+.text--body-md {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+.text--label-md {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.625rem; /* 162.5% */
+}
+
+.text--overline-md {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.625rem; /* 162.5% */
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 48rem) {
+  .text--heading-lg {
+    font-size: 3rem;
+    line-height: 3rem; /* 100% */
+  }
+
+  .text--heading-md {
+    font-size: 2.5rem;
+    line-height: 2.75rem; /* 110% */
+  }
+}
+
+@media screen and (min-width: 73.375rem) {
+  .text--heading-lg {
+    font-size: 4rem;
+    line-height: 4rem; /* 100% */
+  }
+
+  .text--body-md {
+    font-size: 1.125rem;
+    line-height: 1.625rem; /* 144.444% */
+  }
+}
